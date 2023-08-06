@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    <!-- <link rel="icon" href="Stanford logo.jpg"> -->
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👁‍🗨</text></svg>">
   </head>
 
   <body>
@@ -62,7 +64,7 @@
                 <p class="name" style="text-align: center; padding-top: 20%; padding-bottom: 5%;">
                   Benjamin Martinez
                 </p>
-                <p>I am a 4th year undergrad student at Stanford University studying computer science with a concentration on visual computing. This concentration covers my interests in machine learning, graphics, computer vision, and virtual reality. I currently work at the <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a> working on the <a href="https://behavior.stanford.edu/">BEHAVIOR-1K</a> project.
+                <p>I am a 4th year undergrad student at Stanford University studying computer science with a concentration on visual computing. This concentration covers my interests in machine learning, graphics, computer vision, and virtual reality. I currently work at the <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a> working on the <a href="https://behavior.stanford.edu/">BEHAVIOR-1K</a> project. I plan to pursue a master's in AI.
                 </p>
                 <p>Broader interests include philosophy, mysticism, language, film, animation, video games, mindfulness, and surfing. </p>
 
@@ -90,10 +92,10 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
              <!--==================== Behavior ====================-->
- 
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
       <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <img src="images/behavior.gif" alt="behavior" width="160" height="160">
@@ -113,15 +115,86 @@
           <a href="https://github.com/StanfordVL/OmniGibson">code</a>
         </td>
       </tr>
-
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <h3>Machine Learning</h3>
-        </td>
-      </tr>
+      
     </tbody></table>
+
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <h3>Machine Learning</h3>
+      </td>
+    </tr>
+    
+    </tbody></table>
+
+
+      <!--==================== Cvx ====================-->
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/chestxray.png" alt="chest xray" width="160" >
+      </td>
+      <td width="75%" valign="middle">
+        <!-- <a href="https://behavior.stanford.edu/"> -->
+          <span class="papertitle">Convex Optimization for Computer Vision Data Selection</span>
+        </a>
+
+        <p>
+          Our team in CS231N designed a novel method for optimized data selection using convex optimization to diagnose chest X-ray images with convolutional neural networks
+          </p>
+      
+        <a href="data/ConvexDataSelectionPoster.jpg">project poster</a>
+      </td>
+    </tr>
+
+  </tbody></table>
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/metalearningInit.png" alt="meta learning vis" width="160" >
+      </td>
+      <td width="75%" valign="middle">
+        <!-- <a href="https://behavior.stanford.edu/"> -->
+          <span class="papertitle">Meta-Learning Initializations and Loss</span>
+        </a>
+
+        <p>
+          CS 229 project to analyze and experiment with state-of-the-art meta-learning model weight initialization procedures. Co-developed a novel method to optimize training by shaping loss curves.
+          </p>
+      
+        <a href="images/CS229 Meta-Learning Loss Project Poster.svg">project poster</a>
+      
+      </td>
+    </tr>
+
+  </tbody></table>
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/fmri.png" alt="fmri" width="160" >
+      </td>
+      <td width="75%" valign="middle">
+        <!-- <a href="https://behavior.stanford.edu/"> -->
+          <span class="papertitle">Predicting ASD with fMRIs</span>
+        </a>
+
+        <p>
+          PSYC 221 project to identify brain areas correlated with ASD social disorders by using KNNs on dynamic functional connectivity patterns in time series fMRIs
+          </p>
+      
+
+      </td>
+    </tr>
+
+  </tbody></table>
+
+    
 
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
@@ -129,8 +202,164 @@
           <h3>Computer Graphics</h3>
         </td>
       </tr>
+
     </tbody></table>
+
+    
+
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+      <tr>
+
+        <tr onmouseout="ray_stop()" onmouseover="ray_start()"  >
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='dragon'>
+              <img src="images/dragon.png">
+
+            </div>
+              
+              <img src='images/cbox_mirror.png' width="160" id="cbox" >
+            </div>
+            <script type="text/javascript">
+              function ray_start() {
+                document.getElementById('dragon').style.opacity = "1";
+                document.getElementById('cbox').style.opacity="0";
+              }
+  
+              function ray_stop() {
+                document.getElementById('dragon').style.opacity = "0";
+                document.getElementById('cbox').style.opacity="1";
+
+              }
+              ray_stop()
+            </script>
+          </td>
+
+
+          <td width="75%" valign="middle">
+            <!-- <a href="https://behavior.stanford.edu/"> -->
+              <span class="papertitle">Ray Tracer & Mesh Editor</span>
+            </a>
+    
+            <p> Implemented editor with basic mesh edit operations such as beveling, collapsing edges, triangulation, subdivision, and simplification.
+              </p>
+              <p>Implemented efficient ray-scene geometry queries, bounding volume hierarchies, materials, and path tracing for global illumination.</p>
+          
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/berryBoy.png" alt="blobs" width="160" height="160">
+          </td>
+          <td width="75%" valign="middle">
+            <!-- <a href="https://openprocessing.org/sketch/1742949"> -->
+              <span class="papertitle">Gameboy Emulator</span>
+            </a>
+    
+            <p> Bare metal programmed a Raspberry Pi to emulate the original Gameboy hardware. Used C to build a graphics library, allocate memory, and process CPU instructions from the ground up
+              
+              </p>
+                      
+  
+          </td>
+        </tr>
+    
+      
+      
+        <tr onmouseout="glsl_stop()" onmouseover="glsl_start()"  >
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='glsl_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/shaderVid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+              
+              <img src='images/teapotshading.png' width="160" id="teapot" style="padding-top: 30px;">
+            </div>
+            <script type="text/javascript">
+              function glsl_start() {
+                document.getElementById('glsl_image').style.opacity = "1";
+                document.getElementById('teapot').style.opacity="0";
+              }
+  
+              function glsl_stop() {
+                document.getElementById('glsl_image').style.opacity = "0";
+                document.getElementById('teapot').style.opacity="1";
+
+              }
+              glsl_stop()
+            </script>
+          </td>
+
+        <td width="75%" valign="middle">
+          <!-- <a href="https://behavior.stanford.edu/"> -->
+            <span class="papertitle">Lighting and Materials in GLSL</span>
+          </a>
+  
+          <p> GLSL shader programming for material pattern logic, material BRDFs, and lighting computations to compute surface reflectance.
+            Implemented several lighting models including Phong, Cook-Torrance, and Ward.
+            </p>
+        
+
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <img src="images/deformableBlobs.png" alt="blobs" width="160" height="160">
+        </td>
+        <td width="75%" valign="middle">
+          <a href="https://openprocessing.org/sketch/1742949">
+            <span class="papertitle">Deformable Blob Collision Processing</span>
+          </a>
+  
+          <p> Simulate 2D deformable “blobs” and process collisions between them in a rigid environment.
+            </p>
+        
+          <a href="https://openprocessing.org/sketch/1742949">project page & code</a>
+          
+
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <img src="images/IKperson.png" alt="fmri" width="160" height="160">
+        </td>
+        <td width="75%" valign="middle">
+          <!-- <a href="https://behavior.stanford.edu/"> -->
+            <span class="papertitle">Interactive IK Solver</span>
+          </a>
+  
+          <p> Built an interactive inverse kinematics game in PyBullet that mimics the Super Hot game.
+            </p>
+        
+
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <img src="images/kirby.png" alt="kirby" width="160" height="160">
+        </td>
+        <td width="75%" valign="middle">
+          <a href="https://www.shadertoy.com/view/wscfWH">
+            <span class="papertitle">Ray Marching Kirby Shader</span>
+          </a>
+  
+          <p> 3D modeled kirby with ray marching and signed distance fields in GLSL
+            </p>
+        
+          <a href="https://www.shadertoy.com/view/wscfWH">project page & code</a>
+       
+        </td>
+      </tr>
+  
+    </tbody></table>
 
 
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -141,6 +370,7 @@
         </td>
       </tr>
     </tbody></table>
+
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
      
@@ -178,7 +408,7 @@
 
       <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="images/pointNet.png" alt="point cloud chair generation" width="160" height="160">
+          <img src="images/pointnet.png" alt="point cloud chair generation" width="160" height="160">
         </td>
         <td width="75%" valign="middle" style="padding: 20px;">
           <a href="https://stanford.edu/~rqi/pointnet/">
@@ -199,14 +429,14 @@
             <span class="papertitle">Neural Implicit Representations for 3D shape modelling</span>
           </a>
 
-          <p>Trained model to learn signed distance field (SDF) of input bunny point cloud. Then implemented the marching cubes algorithm to extract the mesh from the SDF.</p>
+          <p>Implemented model trained to learn signed distance field (SDF) of input bunny point cloud. Then implemented the marching cubes algorithm to extract the mesh from the SDF.</p>
         </td>
       </tr>
 
-      
- 
 
       </tbody></table>
+
+
           <a class="anchor" id="courses"></a>
 
           <h2 style="padding: 20px; width:100%;vertical-align: middle;">Coursework</h2>
@@ -216,6 +446,9 @@
           
           <h3 style="padding-top: 10px; padding-left: 20px; width: 100%; vertical-align: middle;">Other select courses I've liked</h2>
           <p style="padding-left: 20px;">Heidegger & Mysticism, Psycholinguistics, Zhuangzi, Buddhist Philosophy, Theory of Discourse, Experimental Animation, Wittgenstein, Neurobiology of Sleep, Mindfulness, Immersive (VR) Cinema</p>
+
+          <h2 style="padding: 20px; width:100%;vertical-align: middle;">Coming soon</h2>
+          <p style="padding-left: 20px;">Currently in pre-production for two films: an AI-generated short and a surrealist noir. Also in development of a psychological horror video game</p>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -227,6 +460,7 @@
               </td>
             </tr>
           </tbody></table>
+        </table>
           
   </body>
 </html>
